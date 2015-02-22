@@ -152,13 +152,13 @@ section:after {
   margin-left: -28px;
 }
 a {
-  color: #ff6699;
+  color: #00008B;
   font-weight: inherit;
   line-height: inherit;
   text-decoration: none;
 }
 a:hover {
-  color: #66ccff;
+  color: white;
   text-decoration: underline;
 }
 .body-content {
@@ -328,14 +328,14 @@ fieldset {
   padding-top: 9px;
 }
 fieldset legend {
-  color: #8073cb;
+  color: #1874CD;
   display: block;
     text-transform: uppercase;
   font-size: 15px;
   font-weight: bold;
   line-height: 1;
   padding: 40px 0 0 0;
-  border-bottom: 3px solid #8073cb;
+  border-bottom: 3px solid #1874CD;
   width: 100%;
 }
 form .clearfix, form .cbi-value {
@@ -594,7 +594,7 @@ header h1 a {
   font: 15px/17px Helvetica, Arial, sans-serif;
 }
 header topbar {
-  background: black;
+  background: white;
   display: block;
   margin: 0;
   list-style: none;
@@ -800,7 +800,7 @@ header .dropdown-menu a:hover, .dropdown-menu a:hover, header .dropdown-menu a.h
 footer {
   margin-top: 17px;
   padding: 0 0 17px 0;
-  background: #00ffcf;
+  background: #1874CD;
 }
 footer .pointydown {
   width: 0;
@@ -815,7 +815,7 @@ footer .credits {
   text-align: center;
 }
 footer a:link, footer a:visited {
-  color: black;
+  color: white;
 }
 footer a:active, footer a:hover {
   color: black;
@@ -1071,7 +1071,7 @@ button.btn::-moz-focus-inner, input.btn[type="submit"]::-moz-focus-inner {
 }
 #nodeinfo td {
 	background-color:#FFFFFF;
-	color:#FF6699;
+	color: #1874CD;
 	padding: 0.3em;
 	font-weight: bold;
 	font-size:1.4em;
@@ -1387,7 +1387,7 @@ div.cbi-value var, td.cbi-value-field var {
   width: 100%;
   margin: 0;
   height: 4px;
-  background-color: #877AED;
+  background-color: #1874CD;
 }
 .navbar-inners div {
   display: block;
@@ -1396,22 +1396,23 @@ div.cbi-value var, td.cbi-value-field var {
   float: left;
 }
 .color0 {
-  background-color: #FE739B;
+  background-color: #1874CD;
   width: 5%;
 }
 .color1 {
-  background-color: #00FFCF;
+  background-color: #1874CD;
   width: 43.5%;
 }
 .color2 {
   width: 3%;
-  background-color: #C7BA38;
+  background-color: #1874CD;
 }
 .color3 {
-  background-color: #E8FF00;
+  background-color: #1874CD;
   width: 43.5%;
 }
 .color4 {
+  background-color: #1874CD;
   width: 5%;
 }
 .selectnav {

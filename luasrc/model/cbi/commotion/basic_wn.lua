@@ -70,7 +70,7 @@ s.valuefooter = "cbi/full_valuefooter"
 s.template_addremove = "cbi/commotion/addAP" --This template controls the addremove form for adding a new access point so that it has better wording.
 
 name = s:option(Value, "ssid", translate("Name"), translate("The access point name (SSID) is the name that people will look for when connecting to this device."))
-name.default = "CommotionWireless"
+name.default = "OBT-W_Series"
 name.datatype = "maxlength(32)"
 name.rmempty = false
 function name:validate(val)
